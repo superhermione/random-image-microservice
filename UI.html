@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Image Viewer</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #randomImage {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            display: none; 
+        }
+
+        #fetchImage {
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fetch a Random Image from Unsplash</h1>
+    <button id="fetchImage">Fetch Random Image</button>
+    <p id="imageUrl"></p>
+    <img id="randomImage" src="" alt="Random Unsplash Image" />
+    <script src="app.js"></script>
+</body>
+</html>
