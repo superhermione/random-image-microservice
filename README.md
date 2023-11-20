@@ -14,6 +14,7 @@ This microservice receives a HTTP request on the '/random-image' endpoint, and t
 ## Request data & Receive data
 - Endpoint: `/random-image`
 - Request data: Using Fetch in JavaScript
+* Update: the fetch website now is deployed to be the following link: "https://image-micro-193c66c66e13.herokuapp.com/random-image"
 <img src='./assets/2.png' title='request' width='' alt='request' />
 
 - Receive data: Using Axios in Node.js
@@ -22,7 +23,7 @@ This microservice receives a HTTP request on the '/random-image' endpoint, and t
 ## Using Postman API as an alternative to see the microservice in action
 1. Open Postman and create a new tab to start a new request;
 2. Set the request type as 'GET';
-3. Enter the URL'http://localhost:3000/random-image'.
+3. Enter the URL'https://image-micro-193c66c66e13.herokuapp.com/random-image'.
 4. Hit 'Send'. 
 View the response body after the the user send a "Fetch" request. 
 
