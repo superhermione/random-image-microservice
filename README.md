@@ -14,7 +14,7 @@ This microservice receives a http request on the '/random-image' endpoint, and t
 ## Request data & Receive data
 - Endpoint: `/random-image`
 - Request data: Using Fetch in JavaScript
-<img src='./assets/2.png' title='request width='' alt='request' />
+<img src='./assets/2.png' title='request' width='' alt='request' />
 
 - Receive data: Using Axios in Node.js
 <img src='./assets/1.png' title='receive' width='' alt='receive' />
