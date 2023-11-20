@@ -29,3 +29,5 @@ View the response body after the the user send a "Fetch" request.
 <img src='./assets/3.png' title='postman' width='' alt='postman' />
 
 ## UML Sequence Diagram
+
+<img src='./assets/UML.png' title='UML' width='' alt='UML' />
