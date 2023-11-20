@@ -26,4 +26,6 @@ This microservice receives a HTTP request on the '/random-image' endpoint, and t
 4. Hit 'Send'. 
 View the response body after the the user send a "Fetch" request. 
 
+<img src='./assets/3.png' title='postman' width='' alt='postman' />
+
 ## UML Sequence Diagram
