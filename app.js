@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     const fetchButton = document.getElementById('fetchImage');
     const imageDisplay = document.getElementById('randomImage');
-    const imageUrlDisplay = document.getElementById('imageUrl'); // Element to display the image URL
+    const imageUrlDisplay = document.getElementById('imageUrl'); 
 
     fetchButton.addEventListener('click', function() {
-        // Make sure to replace the URL with the actual endpoint of your microservice
         fetch('http://localhost:3000/random-image')
             .then(response => {
                 if (!response.ok) {
@@ -14,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
             })
             .then(data => {
                 imageDisplay.src = data.imageUrl;
-                imageDisplay.style.display = 'block'; // Make the image visible
-                imageUrlDisplay.textContent = data.imageUrl; // Display the image URL on the page
+                imageDisplay.style.display = 'block'; 
+                imageUrlDisplay.textContent = data.imageUrl; 
             })
             .catch(error => {
                 console.error('Fetch error:', error);
