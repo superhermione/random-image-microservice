@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const imageUrlDisplay = document.getElementById('imageUrl'); 
 
     fetchButton.addEventListener('click', function() {
-        fetch('http://localhost:3000/random-image')
+        fetch('https://image-micro-193c66c66e13.herokuapp.com/random-image')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');

@@ -1,9 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const PORT = 3000;
-const UNSPLASH_ACCESS_KEY = 'zTKUH5gLTeoZrYVZNuuhEl-bJX7JzKoSHYOWh47nWgk'; 
+const PORT = process.env.PORT || 3000;
+const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 const cors = require('cors');
 
 // Enable all CORS requests
