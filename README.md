@@ -1,7 +1,7 @@
 # Image Fetch Microservice
 
 ## Purpose
-This microservice receives a http request on the '/random-image' endpoint, and the server uses Axios to make a request to the Unsplash API.
+This microservice receives a HTTP request on the '/random-image' endpoint, and the server uses Axios to make a request to the Unsplash API and send a JSON object containing the image url from Unsplash back to the user UI. 
 
 ## Quick Start
 - Install and update the package" `npm install`
@@ -20,6 +20,10 @@ This microservice receives a http request on the '/random-image' endpoint, and t
 <img src='./assets/1.png' title='receive' width='' alt='receive' />
 
 ## Using Postman API as an alternative to see the microservice in action
-
+1. Open Postman and create a new tab to start a new request;
+2. Set the request type as 'GET';
+3. Enter the URL'http://localhost:3000/random-image'.
+4. Hit 'Send'. 
+View the response body after the the user send a "Fetch" request. 
 
 ## UML Sequence Diagram
